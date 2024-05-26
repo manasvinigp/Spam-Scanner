@@ -1,0 +1,8 @@
+pip install tld
+pip install joblib
+pip install pandas
+pip install numpy
+pip install scikit-learn
+npm install express cors axios body-parser child-process modul
+pip install requests
+pip install groq

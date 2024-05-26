@@ -1,0 +1,13 @@
+{
+    "name":"Malicious Link Detector",
+    "version":"1.0",
+    "manifest_version":3,
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "popup.js"
+    },
+    "action":{
+        "default_icon":"icon.jpg",
+        "default_popup":"popup.html"
+    }
+}

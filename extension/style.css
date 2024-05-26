@@ -1,0 +1,160 @@
+body{
+    font-family: monospace;
+    min-width: 300px;
+    min-height: 200px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(12, 2, 53);
+    
+}
+.heading{
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 2s steps(60, end) ; 
+}
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+p{
+    opacity: 0;
+    padding: 15px;
+    font-size: 19px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.loading-paragraph{
+    font-size: 20px;
+    top: -50px;
+    margin-left: 20px;
+    color:white;
+}
+p{
+    animation: fadeIn 1s ease-out 0.5s forwards;
+}
+.redcolor{
+    color:red;
+    font-size: 25px;
+}
+.greencolor{
+    color: green;
+    font-size: 25px;
+}
+.threat{
+    color: white;
+    font-size: 40px;
+}
+.slueth{
+    color: green;
+    font-style: bold;
+    font-size: 40px;
+}
+.heading-set{
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+}
+.scanningdiv{
+    margin: 53px 0px 0px 38px;
+    background-color: rgb(12, 2, 53);
+    width: 270px;
+    height: 47px;
+    border-radius: 11px;
+}
+.insidescanning{
+    font-size: 16px;
+    background-color: white;
+    padding: 20px; 
+    top: 5px;
+    width: 200px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 8px ;
+    font-weight: 550; 
+}
+.correctimage{
+    text-align: left; 
+    height: 40px;
+    width: 75px;
+}
+.wrongimage{
+    text-align: left; 
+    height: 40px;
+    width: 75px;
+}
+.documentation{
+    height: 30px;
+    width: 130px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    top: -11px;
+    margin-left: auto;
+    margin-right: 4px;
+    cursor: pointer;
+}
+/* CSS to position the generate button lower */
+.documentation {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* CSS for the progress bar */
+.progress-bar{
+    width: 100%;
+    height: 20px; /* Adjust the height of the progress bar */
+    background-color: #f0f0f0; /* Background color of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Adjust spacing */
+}
+
+.progress{
+    height: 100%;
+    /* Color of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* CSS for the llm score line */
+.llm-score-line {
+    width: 100%;
+    height: 1px; /* Adjust the thickness of the line */
+    background-color: #ccc; /* Color of the line */
+    margin-top: 10px; /* Adjust spacing */
+}
+button {
+    background-color: green; /* Off shade color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: not-allowed;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color:rgb(3, 76, 14); /* Shade on hover */
+}
+
+button:active {
+    background-color: #072701; /* Shade on click */
+}
+
+button:disabled {
+    background-color: green; /* Off shade color */
+    color: white; /* Text color */
+    cursor: not-allowed;
+}
+.text-prompts{
+    color: white; /* Change text color to white */
+    font-size: 10px; /* Change font size to 20px */
+}
+.prompt-heading {
+    color: white; /* Change text color to white */
+    font-size: 20px; /* Change font size to 20px */
+}

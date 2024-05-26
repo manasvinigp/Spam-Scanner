@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "module": "^1.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
