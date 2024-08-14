@@ -82,7 +82,7 @@ def classify_url(url):
 
 # Function to fetch LLM classification
 def fetch_llm_classification(url):
-    client = Groq(api_key="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")
+    client = Groq(api_key="xxxxxxxxxxxxxxxxx")
     
     def process_message_chunk(chunk):
         chat_completion = client.chat.completions.create(
