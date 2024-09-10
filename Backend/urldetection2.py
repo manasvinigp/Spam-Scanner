@@ -127,8 +127,6 @@ def scrape_webpage(url):
         return None
     
 def feedback_message_chunk(chunk):
-    # Placeholder for the actual API call to process a single chunk
-    # This should be replaced with the actual API call logic
     
     client = Groq(api_key="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")
     chat_completion = client.chat.completions.create(
